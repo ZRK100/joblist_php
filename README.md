@@ -1,2 +1,2 @@
 # joblist_php
-job list
+A job listing site 

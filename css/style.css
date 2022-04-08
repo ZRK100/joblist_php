@@ -1,0 +1,149 @@
+/* Space out content a bit */
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  /* Everything but the jumbotron gets side spacing for mobile first views */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  /* Custom page header */
+  .header {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  .header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px; /* Make the masthead heading the same height as the navigation */
+  }
+  
+  /* Custom page footer */
+  .footer {
+    padding-top: 19px;
+    color: #777;
+    border-top: 1px solid #e5e5e5;
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 1200px;
+    }
+  }
+  .container-narrow > hr {
+    margin: 30px 0;
+  }
+  
+  /* Main marketing message and sign up button */
+  .jumbotron {
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  .jumbotron .btn {
+    padding: 14px 24px;
+    font-size: 21px;
+  }
+  
+  /* Supporting marketing content */
+  .marketing {
+    margin: 40px 0;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  .marketing p + h4 {
+    margin-top: 28px;
+  }
+  
+
+ 
+/* Navbar  */
+  .button{
+    background-color:rgb(8, 179, 136);
+    margin-right: 1rem;
+    font-size: 15px;   
+    display: inline-flex;
+    font-size: 15px;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 10%;
+
+}  
+
+.button:hover{
+    background-color: rgb(98, 206, 179);
+}
+
+ .button a {
+    text-decoration: none;
+    color: white;
+
+
+}  
+
+.navlist{
+ padding-top: 5%;
+ display: inline-flex;
+ padding-left: 40%;
+
+}
+
+.nav_bar{
+  flex: 50%;
+
+  
+}
+
+
+.col-md-2 .btn {
+
+  background-color:  rgb(98, 206, 179);;
+
+}
+
+
+.row{
+  display: flex;
+}
+
+
+/* Responsive: Portrait tablets and up */
+
+.logo  .J{
+ 
+  color: white;
+  border: 1px;
+  background-color:  rgb(98, 206, 179);
+  font-size: 45px;
+  padding: 0.5rem;
+
+}
+
+.logo {
+  flex: 50%;
+  text-align: center;
+  padding-top: 1rem;
+  color: black;
+  font-size: 34px;
+  padding-right: 12rem;
+
+}
+  @media screen and (min-width: 768px) {
+    /* Remove the padding we set earlier */
+    .header,
+    .marketing,
+    .footer {
+      padding-right: 0;
+      padding-left: 0;
+    }
+    .header {
+      margin-bottom: 30px;
+    }
+    .jumbotron {
+      border-bottom: 0;
+    }
+  }
